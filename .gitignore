@@ -1,0 +1,81 @@
+# ===============================
+# Node / JavaScript
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===============================
+# Vite / Frontend
+# ===============================
+dist/
+.vite/
+.env
+.env.local
+.env.*.local
+
+# ===============================
+# Next.js (if ever used)
+# ===============================
+.next/
+out/
+
+# ===============================
+# Python / Whisper
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# ===============================
+# Audio / Media files
+# ===============================
+*.wav
+*.mp3
+*.ogg
+*.flac
+output.wav
+test.wav
+
+# ===============================
+# Piper (runtime generated files)
+# ===============================
+piper-server/output.wav
+piper-server/*.wav
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# IDEs
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# Ollama (models are local)
+# ===============================
+.ollama/
+
+# ===============================
+# Temporary / Misc
+# ===============================
+tmp/
+temp/
+.cache/
